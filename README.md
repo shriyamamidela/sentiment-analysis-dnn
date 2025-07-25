@@ -62,7 +62,13 @@ Detailed report is available in `DNN_report.docx`.
 
 ---
 
-<pre> ## 📦 File Structure ``` sentiment-analysis-dnn/ ├── Sentiment_Models.ipynb # Jupyter Notebook with all model code ├── DNN_report.docx # Detailed project report ├── train.csv # Twitter sentiment dataset └── README.md # Project overview and documentation ``` </pre>
+## 📦 File Structure
+
+sentiment-analysis-dnn/
+├── Sentiment_Models.ipynb # Jupyter Notebook with all model code
+├── DNN_report.docx # Detailed project report
+└── README.md # Project overview and documentation
+
 
 
 ---
