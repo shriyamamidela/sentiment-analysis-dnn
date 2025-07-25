@@ -8,11 +8,14 @@ This project explores and compares the performance of four different deep learni
 To classify tweet sentiments (positive or negative) using deep learning models and compare their performance across different architectures and hyperparameter settings.
 
 ## 📊 Dataset
-- Source: Twitter data from Kaggle
-- Format: CSV
-- Labels: `positive`, `negative` (neutral excluded)
-- Features used: `text`, `sentiment`
-- Encoding: ISO-8859-1
+- **Source:** [Twitter Sentiment Analysis Dataset – Kaggle](https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset?select=train.csv)
+- **Filename:** `train.csv`
+- **Format:** CSV
+- **Encoding:** ISO-8859-1
+- **Classes:** `positive`, `negative` (neutral excluded)
+- **Used Features:** `text`, `sentiment`
+- **Dropped/Unused Columns:** `time of tweet`, `age of user`, `country`, `population`, `land area`, `density`
+
 
 ## 🛠️ Technologies Used
 - Python, PyTorch, torchtext
@@ -61,9 +64,9 @@ Detailed report is available in `DNN_report.docx`.
 
 ## 📦 File Structure
 sentiment-analysis-dnn/
-├── Sentiment_Models.ipynb
-├── DNN_report.docx
-└── README.md
+├── Sentiment_Models.ipynb # Jupyter Notebook with all model code
+├── DNN_report.docx # Detailed project report
+└── README.md # Project overview and documentation
 
 
 
